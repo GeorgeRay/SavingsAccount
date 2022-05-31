@@ -14,9 +14,11 @@ public class SavingsAccount {
     /**
      * @param args the command line arguments
      */
-    public class accountClass{
-        private double balance;
-        private double interestRate;
+    private double balance;
+    private double interestRate;
+    //TODO add some parameters to the constructor
+    public SavingsAccount(){
+       
     }
     
     public void setInterestRate(double interestRate){
